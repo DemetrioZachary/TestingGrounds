@@ -18,6 +18,6 @@ public:
 private:
 	UPatrolRouteComponent();
 
-	UPROPERTY(EditInstanceOnly, Category = "PatrolRoute")
+	UPROPERTY(EditAnywhere, Category = "PatrolRoute")
 	TArray<AActor*> PatrolPoints;
 };
